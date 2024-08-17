@@ -37,8 +37,9 @@ body{
     top: 0;
     left: 0;
 } */
+
 .header .header-logo {
-    width: 210px;  /* Set the width of the logo */
+    width: 250px;  /* Set the width of the logo */
     height: auto;  /* Maintain aspect ratio */
 }
 
