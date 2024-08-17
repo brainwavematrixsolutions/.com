@@ -11,7 +11,7 @@
 }
 /* Default logo size */
 .responsive-logo {
-    width: 120%; /* Make the logo take up the full width of its container */
+    width: 200%; /* Make the logo take up the full width of its container */
     max-width: 250px; /* Limit the maximum width */
     height: auto; /* Maintain aspect ratio */
 }
@@ -19,13 +19,14 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .responsive-logo {
-        max-width: 150px; /* Adjust max width for tablets */
+        max-width: 200px; /* Adjust max width for tablets */
     }
 }
 
 @media (max-width: 480px) {
     .responsive-logo {
-        max-width: 150px; /* Adjust max width for mobile phones */
+        min-width: 150px
+        max-width: 200px; /* Adjust max width for mobile phones */
     }
 }
 
