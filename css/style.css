@@ -11,8 +11,8 @@
 }
 /* Default logo size */
 .responsive-logo {
-    width: 100%; /* Make the logo take up the full width of its container */
-    max-width: 225px; /* Limit the maximum width */
+    width: 120%; /* Make the logo take up the full width of its container */
+    max-width: 250px; /* Limit the maximum width */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -25,7 +25,7 @@
 
 @media (max-width: 480px) {
     .responsive-logo {
-        max-width: 100px; /* Adjust max width for mobile phones */
+        max-width: 150px; /* Adjust max width for mobile phones */
     }
 }
 
