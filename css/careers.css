@@ -31,11 +31,15 @@ body{
     position: fixed;
 }
 
-.header .logo img{
+/* .header .logo img{
     width: 20%;
     height: 3rem;
     top: 0;
     left: 0;
+} */
+.header .header-logo {
+    width: 225;  /* Set the width of the logo */
+    height: auto;  /* Maintain aspect ratio */
 }
 
 .header .navbar ul{
