@@ -9,6 +9,25 @@
     transition: all .2s linear;
     text-decoration: none;
 }
+/* Default logo size */
+.responsive-logo {
+    width: 100%; /* Make the logo take up the full width of its container */
+    max-width: 225px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .responsive-logo {
+        max-width: 150px; /* Adjust max width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-logo {
+        max-width: 100px; /* Adjust max width for mobile phones */
+    }
+}
 
 html{
     font-size: 62.5%;
